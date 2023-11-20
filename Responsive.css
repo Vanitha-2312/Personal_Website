@@ -1,0 +1,312 @@
+body, h1, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.page{
+    position: relative;
+}
+
+#home{
+    background-color: #333;
+}
+
+#home .banner{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+}
+
+#home .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#home .banner h1{
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#home .banner p{
+    position: relative;
+    top : 50%;
+    left: 50%;
+    bottom : 50%;
+    right: 50%;
+    transform : translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#home .card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home .card{
+    width: calc(33.33% - 20px);
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#home .card h2{
+    font-size: 1.5em;
+    color: #f9f9f9;
+}
+
+#home .card p{
+    color: #666;
+
+}
+
+#home .content-and-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#home .left-content, #home .right-image{
+    width: 48%;
+}
+
+#home .left-content h2{
+    font-size: 1.5em;
+    color: #f9f9f9;
+}
+
+#home .left-content p{
+    color: #666;
+}
+
+#home .right-image img{
+max-width: 100%;
+height: auto;
+}
+
+#about{
+    background-color: #333;
+}
+
+#about .banner{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#about .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#about .banner h1{
+font-size: 2em;
+margin: 20px 0;
+}
+
+#about .unique-content{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#about .unique-content p{
+    color: #f9f9f9;
+    margin: 0 auto;
+}
+
+#contact{
+    background-color: #333;
+    color: #666;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact .banner img{
+    width: 100%;
+}
+
+#contact .contact-form {
+    margin: 20px;
+}
+
+#contact h1{
+    font-size: 24px;
+}
+
+#contact form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact label{
+    display: block;
+    margin: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+#contact input[type="submit"]{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+#contact .address{
+    margin-top: 20px;
+}
+
+#contact h2{
+    font-size: 20px;
+}
+
+#portfolio{
+    background-color: #333;
+}
+
+#portfolio .banner{
+    background-color: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#portfolio .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#portfolio .banner h1{
+    font-size: 2em;
+    margin: 20px 0;
+
+}
+
+#portfolio .portfolio-content{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#portfolio .portfolio-content p{
+    color: #f9f9f9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item{
+    text-align: center;
+    padding: 20px;
+}
+
+#portfolio .portfolio-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+#portfolio .portfolio-item p{
+    color: #f9f9f9;
+}
+
+#features{
+    background-color: #333;
+}
+
+
+#features .banner{
+    text-align: center;
+    padding: 60px o;
+}
+
+
+#features .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#features .banner p{
+    color: #f9f9f9;
+}
+
+
+#features .company-features{
+    text-align: center;
+    padding: 60px 0;
+}
+
+
+#features .company-features img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#features .feature-card{
+    text-align: center;
+    padding: 20px;
+}
+
+
+#features .feature-card img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#features .feature-card h2{
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+#features .feature-card p{
+    color: #666;
+}
